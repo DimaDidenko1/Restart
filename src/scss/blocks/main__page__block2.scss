@@ -1,9 +1,254 @@
-.main__page__block2 { }
-.mpBlock2__logo { }
-.mpBlock2__descript { }
-.cat__cont { }
-.catCard { }
-.catPhoto { }
-.catTitle { }
-.catDescript { }
-.cat__end__text { }
+.main__page__block2 {
+    margin: -15px 0px 0px 0px;
+    @media (min-width: 768px) {
+        margin: -30px 0px 0px 0px;
+        
+    }
+     @media (min-width: 1200px) {
+     margin: 74px 0px 0px 0px;   
+    }
+ }
+.mpBlock2__logo { 
+    @media (min-width: 768px) {
+    margin: 0px 0px 0px 0px;
+    margin: 0 auto;
+    }
+    @media (min-width: 1200px) {
+        
+    }
+    background: url('../../img/Restart\ Logo.png') no-repeat;
+    background-size: cover;
+    width: 183.861px;
+    height: 67px;
+    flex-shrink: 0;
+}
+.mpBlock2__descript {
+    margin: 22px 0px 0px 0px;
+    p{
+        width: 290px;
+        @media (min-width: 768px) {
+            margin: -11px 0px 0px 0px;
+            width: 100%;
+        }
+        color: #333;
+        text-align:center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        @media (min-width: 1200px) {
+            line-height: 26px;
+            font-size: 20px;
+        }
+    }
+     @media (min-width: 1200px) {
+        margin: 38px 0px 0px -3px;
+     }
+ }
+.cat__cont {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    @media (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 20px 0px 0px 43px;
+        gap: 30px;
+    }
+    @media (min-width: 1200px) {
+        margin: 30px 0px 0px 280px;
+        gap: 16px;
+    }
+    
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    .catCard{
+        
+        &:first-child{
+            .catTitle{
+                margin: 8px 0px 0px -55px;
+            }
+            .catDescript{
+                margin: 22px 0px 0px 0px;
+            }
+            .catPhoto{
+                
+                width: 305px;
+                height: 134px;
+            }
+            @media (min-width: 768px) {
+                .catTitle{
+                    margin: 10px 0px 0px 0px;
+                }
+                .catDescript{
+                    margin: 32px 0px 0px 0px;
+                }
+                .catPhoto{
+                    
+                    width: 327px;
+                    height: 147px;
+                }
+              }
+              @media (min-width: 1200px) {
+                .catTitle{
+                    margin: 27px 0px 0px -2px;
+                }
+                .catDescript{
+                    margin:  0 auto;
+                    margin-top: 49px;
+                }
+                .catPhoto{
+                    
+                    width: 442px;
+                    height: 200px;
+                }
+    }
+        }
+        &:nth-child(2){
+            .catDescript{
+                margin: 20px 0px 0px 0px;
+            }
+            .catTitle{
+                margin: 9px 0px 0px -56px;
+            }
+            .catPhoto{
+                width: 305px;
+                height: 135px;
+            }
+            @media (min-width: 768px) {
+                
+                .catTitle{
+                    margin: 10px 0px 0px -5px;
+                }
+                .catDescript{
+                    margin: 31px 0px 0px 0px;
+                }
+                .catPhoto{
+                    
+                    width: 326px;
+                    height: 149px;
+                }
+              }
+              @media (min-width: 1200px) {
+                .catTitle{
+                           margin: 28px 0px 0px 0px;
+                       }
+                       .catDescript{
+                           margin:  0 auto;
+                           margin-top: 48px;
+                       }
+                       .catPhoto{
+                           
+                           width: 442px;
+                           height: 200px;
+                       }
+           }
+
+        }
+        &:last-child{
+            margin: 19px 0px 0px 0px;
+            @media (min-width: 1200px) {
+                margin: 0px 0px 0px 0px ;
+            }
+            .catDescript{
+                margin: 12px 0px 0px 0px;
+            }
+            .catTitle{
+                margin: 19px 0px 0px -56px;
+            }
+            .catPhoto{
+                width: 305px;
+                height: 131.249px;
+            }
+            @media (min-width: 768px) {
+                .catTitle{
+                    margin: 20px 0px 22px 0px;
+                }
+                .catDescript{
+                    margin: 0px 0px 0px 0px;
+                }
+                .catPhoto{
+                    
+                    width: 326px;
+                    height: 147px;
+                }
+              }
+              @media (min-width: 1200px) {
+                .catTitle{
+                    margin: 28px 0px 0px 4px;
+                }
+                .catDescript{
+                    margin:  0 auto;
+                    margin-top: 47px;
+                }
+                .catPhoto{
+                    
+                    width: 442px;
+                    height: 200px;
+                }
+    }
+        }
+    }
+ }
+.catCard {
+    
+ }
+.catPhoto {
+    background-size: cover;
+    
+    }
+.catTitle { 
+    
+    color: #333;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+
+}
+.catDescript {
+    
+    width: 290px;
+    color: #666;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+ }
+.cat__end__text {
+    margin: 52px 0px 0px 15px;
+    @media (min-width: 768px) {
+        margin: 45px 0px 0px 19px;
+    }
+    
+    p{
+        width: 290px;
+        @media (min-width: 768px) {
+            width: 100%;
+        }
+          
+        color: #333;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+        
+        @media (min-width: 1200px) {
+            margin: 0 auto;
+           
+            width: 811px;
+            margin-top: 85px;
+            
+        }
+    }
+ }
+.footer{
+    margin: 29px 0px 0px 0px;
+}
